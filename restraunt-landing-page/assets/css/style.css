@@ -1,0 +1,299 @@
+* {
+    box-sizing: border-box;
+  }
+.div1{
+     background-image: url("../img/1.png");
+    background-size: cover;
+    background-position: center;
+    height: 109vh;
+    
+ } 
+
+.nav-item a{
+    margin-top: 20px;
+    margin-right:20px ;
+    font-size: larger;
+    color: white;
+} 
+/* .nav-item li :hover{
+    color:  rgb(255, 213, 77);;
+} */
+ #content-home{
+    width: 50%;
+   margin-top: 170px;
+   float: right;
+   color: white;
+   
+}
+#content-home h1{
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Lobster', cursive;
+    color: rgb(255, 213, 77);
+     /* font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;  
+     color: rgb(255, 213, 77);*/
+} 
+#content-home button{
+    background-color:  rgb(255, 213, 77) ;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+   border: 2px solid rgb(255, 213, 77);
+   border-radius: 2px;
+
+
+}   
+.div2{
+    background-image: url("../img/2.png");
+    background-size: cover;
+    background-position: center;
+    height: 109vh;
+}
+.div2 h1{
+    margin-top: 50px;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Lobster', cursive;
+    color: black;
+    text-align: center;
+}
+ #text{
+    margin-left: 200px;
+    margin-right: 200px;
+    text-align: center;
+}
+
+    .column {
+        float: left;
+        /* width: 33.33%; */
+        padding: 10px;
+        height: 70px;
+        text-align: center;
+    justify-content: center;
+    width: 220px;
+    margin-left: 180px;
+    margin-top: 420px;
+      }
+      .column h2{
+        font-family: 'Dancing Script', cursive;
+        font-family: 'Lobster', cursive;
+        color: black;
+
+      }
+  
+      .row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+
+.div3{
+    background-image: url("../img/3.png");
+    background-size: cover;
+    background-position: center;
+    height: 350vh;
+    
+  /* justify-content: center;
+  align-items: center; */
+}
+#top{
+    float: right; 
+    /* text-align: center; */
+    /* align-items: center; */
+    width: 30%;
+     margin-top: 250px;
+    margin-right: 190px; 
+    
+
+}
+#top h1{
+    font-family: 'Dancing Script', cursive;
+        font-family: 'Lobster', cursive;
+        color: rgb(255, 213, 77);
+        text-align: center;
+}
+#top p{
+color: white;
+}
+#top button{
+    background-color:  rgb(255, 213, 77) ;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+   border: 2px solid rgb(255, 213, 77);
+   border-radius: 2px;
+   margin-top: 10px;
+}
+ #middle{
+    width: 40%;
+    padding-top: 800px;
+    text-align: center;
+    justify-content: center;
+    margin-left: 320px;
+    color: white;
+    
+}
+#middle h1{
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Lobster', cursive;
+    color: rgb(255, 213, 77);
+    text-align: center;
+}
+.overview{
+    margin-left: 260px;
+    
+    margin-top: 10px;
+    padding-top: 70px;
+    
+}
+#circle li{
+   display: inline;
+   border: 1px solid white;
+   margin-right: 70px;
+   border-radius: 50%;
+   padding:45PX 20px 
+
+
+}
+#circle li a{
+    text-decoration: none;
+    font-size: large;
+    color: white;
+}
+
+#bottom{
+    float: left;
+    /* text-align: center;
+    align-items: center; */
+    width: 30%;
+    margin-bottom: 100px;
+    margin-left: 180px;  
+    padding-top: 300px; 
+}
+#bottom button{
+    background-color:  rgb(255, 213, 77) ;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+   border: 2px solid rgb(255, 213, 77);
+   border-radius: 2px;
+   margin-top: 10px;
+}
+#bottom h1{
+    font-family: 'Dancing Script', cursive;
+        font-family: 'Lobster', cursive;
+        color: rgb(255, 213, 77);
+        
+}
+#buttom p{
+    color: white;
+}
+.div4{
+    background-image: url("../img/4.png");
+    background-size: cover;
+    background-position: center;
+    height: 109vh;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+    
+   
+}
+.div4 h1{
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Lobster', cursive;
+    color:black;
+    display: flex;
+   
+    align-items: center;
+}
+#text2{
+    text-align: center;
+    align-items: center;
+    color: black;
+    font-size: large;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+#h1{
+    padding-left: 550px;
+    /* text-align: center; */
+}
+.div5{
+    background-image: url("../img/5.png");
+    background-size: cover;
+    background-position: center;
+    height: 109vh;
+}
+#cont2{
+    padding-top: 300px;
+    width: 80%;
+    text-align: center;
+    align-items: center;
+    padding-left: 200px;
+}
+#cont2 h1{
+    font-family: 'Dancing Script', cursive;
+        font-family: 'Lobster', cursive;
+        color: black;
+        text-align: center;
+}
+.input{
+    position: absolute;
+    width: 30%;
+    padding-left: 10px;
+    border-style: none;
+    height: 30px;
+    background-color: rgb(230, 226, 226);
+    border-radius: 0.5px;
+   
+}
+#btn{
+    position: relative;
+    margin-left: 260px;
+    width: 20%;
+    background-color:rgb(255, 213, 77) ;
+    border: 2px solid rgb(255, 213, 77);
+}
+.div6{
+    /* background-image: url("../img/6.png");
+    background-size: cover;
+    background-position: center;
+    height: 109vh; */
+    background-color: rgb(54, 54, 54);
+    width: 100%;
+    height: 400px;
+}
+#left{
+    float: left;
+    width: 40%;
+    padding-top: 30px;
+    color: white;
+    align-items: center;
+    padding-left: 30px;
+    margin-left: 30x;
+}
+#links_btn a{
+   margin-left: 10px;
+  color: black;
+  background-color: white;
+  border-radius: 50%;
+  
+  padding: 5px 7px;
+  text-align: center;
+  align-items: center;
+
+
+}
+.div6 ul.no-bullets {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    padding-left: 10px;
+    color: white;
+}
+
+
